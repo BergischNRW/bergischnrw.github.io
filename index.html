@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+  <!-- Cronitor RUM -->
+<script async src="https://rum.cronitor.io/script.js"></script>
+<script>
+    window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+    cronitor('config', { clientKey: '3aa6b50f7fe7b76052e59b2366b56e07' });
+</script>
 <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1deeca6ef0f84399a3867a19a773adee"}'></script>
 <!-- End Cloudflare Web Analytics -->
